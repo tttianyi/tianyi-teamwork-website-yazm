@@ -1,0 +1,81 @@
+
+button{
+background: none;
+border:none;
+font-size: 48px;
+}
+
+
+.quizno{
+	margin: 0px 0 0 100px;
+	padding-top: 20px;
+	background-image: url(../../images/quizno2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: left;
+	width: 1000px;
+	height: 163px;
+	font-size: 35px;
+}
+
+.bb1{
+	background-image: url(../../images/bubble_y.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 352px;
+	height: 232px;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 120px;
+	margin: 30px 0 0 80px;
+	float: left;
+	opacity: 0.8;
+}
+
+.bb2{
+	background-image: url(../../images/bubble_r.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 264px;
+	height: 174px;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 90px;
+	margin: 0 0 0 -50px;
+	float: left;
+	opacity: 0.9;
+
+}
+
+.bb3{
+	background-image: url(../../images/bubble_b.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 284px;
+	height: 194px;
+	left: 600px;
+	top: 120px;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 90px;
+	margin: 150px 0 0 80px;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.bb4{
+	background-image: url(../../images/bubble_r.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 375px;
+	height: 255px;
+	margin: -50px 0 0 280px;
+	padding-top: 120px;
+	text-align: center;
+	font-size: 60px;
+	float: left;
+	opacity: 0.85;
+
+}
+
+

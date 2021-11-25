@@ -1,0 +1,146 @@
+		#bg{
+			display: none;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top:0;
+			left: 0;
+			background: rgba(255,255,255,0.5);
+			z-index: 100;
+		}
+		#cont{
+			display: none;
+			position: fixed;
+			top: 2%;
+			left: 35%;
+			z-index: 101;
+			-webkit-animation: slideOut 0.5s ease-in-out 0.3s backwards;
+			-moz-animation: slideOut 0.5s ease-in-out 0.3s backwards;
+			-o-animation: slideOut 0.5s ease-in-out 0.3s backwards;
+			-ms-animation: slideOut 0.5s ease-in-out 0.3s backwards;
+			animation: slideOut 0.5s ease-in-out 0.3s backwards;
+		}
+		#rec{
+			padding: 70px 30px 20px 30px;
+			margin-top: 70px;
+			display: block;
+			background: url(../../images/notes.png) no-repeat;
+			background-size: 100%;
+			width: 410px;
+			height: 452px;
+			text-align: center;
+		}
+		#close{
+			position: absolute;
+			right: -38px;
+			top: 0;
+			background-image: url(../../images/close.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			width: 70px;
+			height: 70px;
+			cursor: pointer;
+		}
+		.text{
+			position: absolute;
+			left: 50px;
+			top: 100px;
+			margin-top: 50px;
+			text-align: center;
+			font-size: 25px;
+			width: 370px;
+			height: 400px;
+			overflow: scroll;
+		}
+
+
+
+
+
+
+		.content{
+			height: 260px;
+			width: 1366px;
+			position:relative;
+
+		}
+
+		.cloud{
+			height:330px;
+			width: 770px;
+			background: url(../../images/cloud1.png);
+			position:absolute;
+            margin-top:0px;     /*这里是小盒子高的一半*/
+            margin-left: 330px;    /*这里是小盒子宽的一半*/
+		}
+		.cloud img{
+			margin-top: 30px;
+			margin-left: 120px;
+		}
+
+		.notes{
+			height: 1000px;
+			width: 1366px;
+		}
+
+		.note{
+			height: 380px;
+			width: 330px;
+			background: url(../../images/notes.png);
+
+		}
+		.note p{
+			width: 330px;
+			font-size: 40px;
+			font-family: "AaWanWan";
+			text-align: center;
+		}
+
+		.content p{
+			text-align: center;
+			font-size: 50px;
+		}
+		.clear {
+		    clear:both;/*主要使用这个属性来清除浮动*/
+  }
+
+
+		.footer{
+			height: 355px;
+			width:700px;
+			text-align: center;
+			float: right;
+			font-size: 50px;
+		}
+
+a{text-decoration: none;}
+a.content:link {color: grey}
+a.content:visited {color: black}
+a.content:hover {color: grey}
+a.content:active {color: rgb(66,134,241)}
+
+a.note:link {color: grey}
+a.note:visited {color: rgb(77,36,134);}
+a.note:hover {color: grey}
+a.note:active {color: rgb(66,134,241)}
+
+@-webkit-keyframes slideOut{
+	0%{top:-30px; opacity: 0;}
+	100%{top:0px; opacity: 1;}
+}
+@-moz-keyframes slideOut{
+	0%{top:-30px; opacity: 0;}
+	100%{top:0px; opacity: 1;}
+}
+@-o-keyframes slideOut{
+	0%{top:-30px; opacity: 0;}
+	100%{top:0px; opacity: 1;}
+}
+@-ms-keyframes slideOut{
+	0%{top:-30px; opacity: 0;}
+	100%{top:0px; opacity: 1;}
+}
+@keyframes slideOut{
+	0%{top:-30px; opacity: 0;}
+	100%{top:0px; opacity: 1;}
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>病名为艾</title>
+	<meta charset="utf-8"/>
+	<script src="../static/js/vue.js"></script>
+	<link href="../static/css/base.css" rel="stylesheet" type="text/css"/>
+	<link href="../static/css/bookshelf/sex1.css" rel="stylesheet" type="text/css"/>
+	<link rel="icon" href="../static/images/icon.ico" type="image/x-icon" />
+</head>
+<body ondragstart="return false">
+<div  id="its_body">
+	<headerrr></headerrr>
+	<breaddd></breaddd>
+		<div id="my_body">
+			<div id="my_book">
+				<div id="my_paper">
+					<div id="png2">
+						<img src="../static/images/sex2.png">
+					</div>
+				<div id="page_o" style="position: absolute;top: 700px;">
+					<button id="next" class="small_font" onclick="window.location.href='sex3.html';">下一页</button>
+				</div>
+			</div>
+		</div>
+		<footerrr></footerrr>
+	</div>
+	<script type="text/javascript">
+		var ans = document.getElementById("next");
+		ans.onclick=function(){
+			window.location.href="sex3.html";
+		}
+	</script>
+	<script type="text/javascript">
+		// bread list
+		var my_links = ["首页", "预防", "性传播"]
+	</script>
+	<script src="../static/js/common.js"></script>
+	<script src="../static/js/base.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>病名为艾</title>
+	<meta charset="utf-8"/>
+	<script src="../static/js/vue.js"></script>
+	<link href="../static/css/base.css" rel="stylesheet" type="text/css"/>
+	<link href="../static/css/elimination/elimination.css" rel="stylesheet" type="text/css"/>
+	<link rel="icon" href="../static/images/icon.ico" type="image/x-icon" />
+</head>
+<body ondragstart="return false">
+		<div id="its_body">
+		<headerrr></headerrr>
+		<breaddd></breaddd>
+		<div id="my_body" style="height: 1400px">
+			<div class="content">
+				<div class="cloud"><img src="../static/images/cp.gif"></div>
+			</div>
+
+			<div class="notes">
+				<table align="center" cellspacing="110">
+				<tr>
+			  		<td><div class="note"><a class="note" href="javascript:;" id="note1"><p><br><br><br>消除对死亡的恐惧</p></a></div></td>
+
+			  		<td><div class="note"><a class="note"href="javascript:;" id="note2"><p><br><br><br>消除对人群的恐惧</p>
+			  		</a></div></td>
+			  		<td><div class="note"><a class="note" href="javascript:;" id="note3"><p><br><br><br>消除因为无知产生的歧视</p></a></div></td>
+				</tr>
+				<tr>
+			  		<td><div class="note"><a class="note" href="javascript:;" id="note4"><p><br><br><br>小王的思考</p></a></div></td>
+			  		<td><div class="note"><a class="note" href="javascript:;" id="note5"><p><br><br><br>其他</p></a></div></td>
+			  		<td><div class="note"><a class="note" href="../extensions/status.html" ><p><br><br><br>其他</p></a></div></td>
+				</tr>
+				</table>
+			</div>
+		</div>
+		<footerrr></footerrr>
+	</div>
+
+
+
+	<div id="bg"></div>
+	<div id="cont">
+		<div id="rec">
+		<div class="text" >
+			作者：陈洁瑜t<br>
+链接：https://www.zhihu.com/question/35268987/answer/135410505<br>
+来源：知乎<br>
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。<br>
+
+</div></div>
+		<div id="close"></div>
+	</div>
+
+
+
+	<script type="text/javascript">
+		// bread list
+		var my_links = ["首页", "消除歧视"]
+	</script>
+	<script src="../static/js/common.js"></script>
+	<script src="../static/js/base.js"></script>
+	<script src="../static/js/elimination.js"></script>
+
+
+
+
+	<script type="text/javascript">
+		var oNote1=document.getElementById('note1');
+		var oNote2=document.getElementById('note2');
+		var oNote3=document.getElementById('note3');
+		var oNote4=document.getElementById('note4');
+		var oNote5=document.getElementById('note5');
+		var oBg=document.getElementById('bg');
+		var oCont=document.getElementById('cont');
+		var oClose=document.getElementById('close');
+		function open() {
+			// body...
+			oBg.style.display='block';
+			oCont.style.display='block';
+			document.getElementById('its_body').style=('filter:blur(10px);');
+		}
+		function close() {
+			// body...
+			oBg.style.display='none';
+			oCont.style.display='none';
+			document.getElementById('its_body').style=('filter:none;');
+		}
+
+		//this is to be added 
+
+		oNote1.onclick=function(){
+			document.getElementsByClassName('text')[0].innerHTML=my_passage1;
+			open();
+		}
+		oNote2.onclick=function(){
+			document.getElementsByClassName('text')[0].innerHTML=my_passage2;
+			open();
+		}
+		oNote3.onclick=function(){
+			document.getElementsByClassName('text')[0].innerHTML=my_passage3;
+			open();
+		}
+		oNote4.onclick=function(){
+			document.getElementsByClassName('text')[0].innerHTML=my_passage4;
+			open();
+		}
+		oNote5.onclick=function(){
+			document.getElementsByClassName('text')[0].innerHTML=my_passage5;
+			open();
+		}
+
+
+
+
+		oClose.onclick=function() {
+			close();
+		}
+	</script>
+
+
+
+</body>
+</html>

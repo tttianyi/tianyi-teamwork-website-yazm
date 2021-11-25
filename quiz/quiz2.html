@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>病名为艾:quiz2</title>
+	<meta charset="utf-8"/>
+	<script src="../static/js/vue.js"></script>
+	<link href="../static/css/base.css" rel="stylesheet" type="text/css">
+	<link href="../static/css/quiz/quiz2.css" rel="stylesheet" type="text/css"/>
+	<link rel="icon" href="../static/images/icon.ico" type="image/x-icon" />
+</head>
+<body ondragstart="return false">
+	<div id="its_body">
+		<headerrr></headerrr>
+		<breaddd></breaddd>
+		<div id="my_body" style="position: relative;height: 600px">
+			<div class="quizno"><h1>哪些公共区域的HIV会感染你呢？</h1></div>
+			<div class="bb1">共享餐具</div>
+			<div class="bb2"><button class="ans" onclick="window.location.href='../bookshelf/shelf.html'">公用剃须刀</button></div>
+			<div class="bb3"><button class="ans" herf="../bookshelf/shelf.html">卖血</button></div>
+			<div class="bb4">公用<br>洗衣机</div>
+		</div>
+		<footerrr></footerrr>
+	</div>
+	<script type="text/javascript">
+		var ans = document.getElementsByClassName("ans");
+		ans[0].onclick=function(){
+			alert("congratulations!");
+			window.location.href="../bookshelf/shelf.html";
+		}
+		ans[1].onclick=function(){
+			alert("congratulations!");
+			window.location.href="../bookshelf/shelf.html";
+		}
+		
+		
+	</script>
+	<script type="text/javascript">
+		// bread list
+		var my_links = ["首页", "小问答"]
+	</script>
+	<script src="../static/js/common.js"></script>
+	<script src="../static/js/base.js"></script>
+</body>
+</html>
